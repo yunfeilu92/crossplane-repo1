@@ -1,0 +1,9 @@
+apiVersion: yunfeilu.demo/v1alpha1
+kind: ServerlessClaim
+metadata:
+  name: backstageserverless6
+  namespace: crossplane-demo
+spec:
+  region: EU
+  language: java
+  memorySize: medium
